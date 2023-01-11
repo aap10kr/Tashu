@@ -7,7 +7,7 @@ function Navbar(props) {
       <nav>
         <ul>
           <li className='py-[27px] bg-white'>
-            <Link to="/"><img src='../../img/img.jpg' alt='homeLogo'/></Link>
+            <Link to="/sugu"><img src='../../img/img.jpg' alt='homeLogo'/></Link>
           </li>
           <li className='py-4 px-4 mt-14 mb-2 hover:bg-white hover:text-blue-600 text-2xl font-bold rounded-l-2xl text-white'>
             <Link to="/sugu">서구</Link>
