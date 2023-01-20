@@ -2,9 +2,9 @@ import React from 'react';
 
 function Table (props){
 
-    const onChange = (event) => {
-      props.selectValues(event.target.value);
-    };
+  const onChange = (event) => {
+    props.selectValues(event.target.value);
+  };
     
   return(
     <>
@@ -36,7 +36,7 @@ function Table (props){
             </thead>
             <tbody>
               {props.list.map((it) =>(
-                <tr className='border-b'>
+                <tr key={it} className='border-b'>
                   <td className='py-2 '>{it[0]}</td>
                   <td className='py-2 text-center'>{it[3]}</td>
                   <td className='py-2 text-center'>{it[4]}</td>
