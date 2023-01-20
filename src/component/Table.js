@@ -35,8 +35,8 @@ function Table (props){
               </tr>
             </thead>
             <tbody>
-              {props.list.map((it) =>(
-                <tr key={it} className='border-b'>
+              {props.list.map((it, index) =>(
+                <tr key={index} className='border-b'>
                   <td className='py-2 '>{it[0]}</td>
                   <td className='py-2 text-center'>{it[3]}</td>
                   <td className='py-2 text-center'>{it[4]}</td>
